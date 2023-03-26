@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер фото</title>    
+    <meta name="description" content="Строим слайдер для фото">
+    <meta name="keywords" content="Фотопоказ, слайдшоу, фотослайдер">  
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="menu_bar">
+                <div class="head">
+                    <a href="index.html">СЛАЙДЕР</a>
+                </div>                
+            </div>    
+        </div>
+    </section>
+
+   <section class="slideshow">
+        <div class="container">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="img/6.jpg" style="width:1000px; height: 650px;">
+                    <div class="text">Быть в трэнде</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="img/3.jpg" style="width:1000px; height: 650px;">
+                    <div class="text">Доброе утро</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="img/4.jpg" style="width:1000px; height: 650px;">
+                    <div class="text">Последние теплые деньки</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="img/5.jpg" style="width:1000px; height: 650px;">
+                    <div class="text">Ностальгия</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="img/2.jpg" style="width:1000px; height: 650px;">
+                    <div class="text">Выходные вместе</div>
+                </div>
+
+                
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>                
+            </div>
+        </div>
+   </section>
+
+    <script src="index.js">    
+    </script>
+
+
+    <footer> 
+    </footer>      
+
+</body>
+</html>
